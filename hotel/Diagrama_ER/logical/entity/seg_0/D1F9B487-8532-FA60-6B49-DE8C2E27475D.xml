@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1F9B487-8532-FA60-6B49-DE8C2E27475D" name="HOTEL">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:08:37 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FCAF7E4C-D8BC-4704-A658-072067C658D5">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:10:14 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCALIDADE" id="DC454524-46B8-36AA-32CC-224F93202ACD">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:10:20 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="55EBCAFE-D26F-3E4E-CC9C-D10033E571A7">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:10:48 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="C61BEACE-1A5B-0FDF-C5F2-D7E13C3FEC77">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:12:47 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="98C76A78-1A0C-D3DA-59A5-1FB8794C51B6">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:14:05 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAPACIDADE" id="9B4C7E8C-5251-F92D-AB87-DC8A6D48F23A">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:14:22 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="12FA140B-B2F2-12F8-C23A-9D6B0A716993">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:15:08 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="ABA5A523-CBFE-B063-1E7A-CCA38476115A">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:15:27 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1901C9A-D0C8-6BC0-C07C-FA24F6D5B982" name="HOTEL PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-14 22:11:13 UTC</createdTime>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<engineerTo>
+<item key="F3CF6575-10D5-C764-D5AD-9FD5117CE534" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCAF7E4C-D8BC-4704-A658-072067C658D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

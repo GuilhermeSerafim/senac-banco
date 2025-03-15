@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBEB4B7F-5EED-09F1-0240-3AAF03E45E52" name="ANDAR">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>3854CB41-D489-3CC0-8025-E5715BFBD0F1</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero_Andar" id="E7DA9641-FA9F-8E5D-0E78-E4D67344EF33">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>55EE9E97-2616-5501-E47F-3C28969BD267</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="503BBF4A-1215-C2AA-AAA6-4938E3244604">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>E5749507-DF83-F733-F0CF-5C48612EB8F6</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C254B1A8-87C6-8820-B218-847B377AB53D" referredColumn="487EEB79-A19E-6812-5AA0-04A0C8133537"/>
+</associations>
+</Column>
+<Column name="Quantidade_Suites" id="3FB10761-C532-9C51-541C-6DA68229B14C">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>8172A53A-0F1E-8276-90D4-AFA45E56EAA8</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="C0136464-68C9-734F-5821-7FA1033E2E5C">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>CE7ABEA5-1858-F97F-4414-03758FB01C8B</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B6F6755-91B6-2C6E-9CB7-987E2C223761" name="ANDAR_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>8E0DA59C-1F6A-0401-7731-91D415D09BFB</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DA9641-FA9F-8E5D-0E78-E4D67344EF33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D6845DB-FB2D-0AAB-43B7-B7EC1A2DF832" name="ANDAR_HOTEL_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:23:20 UTC</createdTime>
+<generatorID>11C5B368-EFAA-3C57-50CC-DC7AF15C3D15</generatorID>
+<ownerDesignName>Diagrama_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503BBF4A-1215-C2AA-AAA6-4938E3244604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
