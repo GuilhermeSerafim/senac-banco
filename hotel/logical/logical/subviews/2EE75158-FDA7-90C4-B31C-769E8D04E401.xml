@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="2EE75158-FDA7-90C4-B31C-769E8D04E401">
+<createdBy>guilherme.serafim</createdBy>
+<modifiedBy>guilherme.serafim</modifiedBy>
+<createdTime>2025-03-14 22:08:33 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2072CE98-92ED-3047-60D3-F1CC165F222A" otype="Entity" vid="08CF2F3E-2C44-9B9E-7F7A-670DD7D41310">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="861" y="65" width="132" height="54"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="24A5E80B-13CA-24EC-C4BA-886B92DBDD93" otype="Note" vid="3268D683-9BEA-B32E-C2CC-5E22563F74B1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="336" y="256" width="1" height="1"/>
+<comment>Clique duas vezes para 
+editar o texto.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3854CB41-D489-3CC0-8025-E5715BFBD0F1" otype="Entity" vid="AF73F60D-8F3E-A533-5FCD-E7B519B42D52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="304" y="67" width="148" height="68"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="75ABE7B0-BD51-DC5C-DFF1-B98658C896CD" otype="Note" vid="EA836B77-1705-E97C-B60E-015C15DFF4EC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="605" y="356" width="279" height="66"/>
+<comment>No modelo hierárquico clássico, as chaves estrangeiras são propagadas apenas para o nível imediatamente superior, e as entidades se referenciam indiretamente através dessas relações.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CBB801A3-72C3-B0BE-C318-5D27E81293F2" otype="Entity" vid="7C065EBE-55E0-F511-6E1A-51A0973D5365">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="542" y="28" width="125" height="138"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D1F9B487-8532-FA60-6B49-DE8C2E27475D" otype="Entity" vid="75E6E87B-C324-1CC8-7C6E-58243BDA135C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="114" y="24" width="123" height="138"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="11C5B368-EFAA-3C57-50CC-DC7AF15C3D15" otype="Relation" vid_source="75E6E87B-C324-1CC8-7C6E-58243BDA135C" vid_target="AF73F60D-8F3E-A533-5FCD-E7B519B42D52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="237" y="101"/>
+<point x="304" y="101"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="19A56C6D-5EDF-9D7C-5D99-D57FBDF581F6" otype="Relation" vid_source="AF73F60D-8F3E-A533-5FCD-E7B519B42D52" vid_target="7C065EBE-55E0-F511-6E1A-51A0973D5365">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="452" y="101"/>
+<point x="542" y="101"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5B097F8A-26EA-B967-5676-260A3D6060BF" otype="Relation" vid_source="7C065EBE-55E0-F511-6E1A-51A0973D5365" vid_target="08CF2F3E-2C44-9B9E-7F7A-670DD7D41310">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="667" y="92"/>
+<point x="861" y="92"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
