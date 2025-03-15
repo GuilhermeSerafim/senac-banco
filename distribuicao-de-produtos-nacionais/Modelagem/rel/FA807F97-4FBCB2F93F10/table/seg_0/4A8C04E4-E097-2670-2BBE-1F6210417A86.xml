@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A8C04E4-E097-2670-2BBE-1F6210417A86" name="Gerente">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>D2155154-4299-E7FD-8375-577869EC72D1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdGerente" id="0275C769-AFC5-C2A0-3E08-36B7902E68E3">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>F6D7FE70-9C34-B87A-BDC9-99F2F4A60BA9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B757382-3F97-6453-AD03-23E3F83A5B02" name="Gerente_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>9825D914-7486-A181-FE37-39B778842E16</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

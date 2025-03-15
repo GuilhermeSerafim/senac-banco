@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C1451E2-D534-BF02-D6C0-96174A7E9781" name="Funcionario">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>F9DF09E9-2558-E07A-D703-882E33CA269F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdFuncionario" id="3DC0A8AF-8A75-496F-0681-C2C1795D8E41">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>9E461585-FDB8-1AFA-92FE-85B1D8B2E67D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="9A8C6BC8-804A-A5D2-48DC-31ADE6F3C039">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>7ECC33A4-40C4-4ED8-F781-B5F67A6AF63C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="B78C74B2-6ADA-9D75-DFAC-2BEBB81468BE">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>DE6D7B4C-8FDD-FC2C-3199-206BAD14588B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="946C105F-2F4D-CB52-1BF6-AF8BC73D1FA7" name="Funcionario_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>5E119163-62A2-6170-A230-F46683E3A763</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC0A8AF-8A75-496F-0681-C2C1795D8E41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91ED8FCC-81D2-8F3D-6A3F-3E68B2311341" name="Diretor">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>1F47F1C0-FF36-1D26-0BE8-FA2A7680FB15</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdDiretor" id="50D868A0-7CDB-E8E4-FA23-0690D827A1AA">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>927BE12F-24B2-0988-8766-72FF7E120676</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdFuncionario" id="E77D9357-DCC0-5243-3CA8-FE72F7E7D7D4">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>843D6961-9059-1541-D764-2CACA6A76884</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6048569C-6425-733A-B7D5-C61150C7E919" name="Diretor_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>F595EC03-F06D-7665-7BAB-2B279589C4DE</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

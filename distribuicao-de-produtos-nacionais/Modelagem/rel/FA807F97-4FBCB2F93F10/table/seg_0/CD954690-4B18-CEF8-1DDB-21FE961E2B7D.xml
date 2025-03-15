@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD954690-4B18-CEF8-1DDB-21FE961E2B7D" name="Distrito_de_vendas">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>78EB971B-61DB-6E83-45CD-C31757C4B565</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdDistrito" id="E2A2AD5D-33D1-5E17-92F8-4F192DFE06BF">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>69E6C60D-CF47-7344-EE28-AE2CEAFF48D6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdRegiao" id="1510671F-2271-CA86-9688-7FDF516F364D">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>8DA7142F-AE1D-A5D9-4B50-D069F4979CB6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3058431-6C1A-A6AE-23E5-CDBC8F5D3DDA" name="Distrito_de_vendas_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>A38B5090-28DE-86BC-FD9E-626219D17D2D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2A2AD5D-33D1-5E17-92F8-4F192DFE06BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

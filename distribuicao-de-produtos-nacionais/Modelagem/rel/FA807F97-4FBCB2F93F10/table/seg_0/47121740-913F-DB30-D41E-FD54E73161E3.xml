@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47121740-913F-DB30-D41E-FD54E73161E3" name="Vendedor">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>AED58EF9-83D3-0CD2-33D6-CE38BCB9E16B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdVendedor" id="126CC878-41C4-12C9-DF32-A9BCF28A6CA2">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>3C237120-060F-B6BE-58C8-544D15EF1915</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quota" id="4D745EDD-8097-026E-9825-7B869FEDFB3A">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>5B0CACB9-EFBF-302A-2A96-9E906561724B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdFuncionario" id="C1EE793B-49E7-1132-E29C-76F8492F530E">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>28DE7D4A-BA85-6393-A952-B7DF12E32CD6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F28CDFCF-10F7-C18D-1868-4D986EEDC28D" name="Vendedor_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 22:48:21 UTC</createdTime>
+<generatorID>B6E2A3AC-DA4E-693B-71F1-53C77B150CBB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,6 +4,7 @@
 <createdTime>2025-03-15 20:23:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
+<item key="FA807F97-58E0-3F80-8142-4FBCB2F93F10" value="true"/>
 <item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -20,6 +21,7 @@
 <createdTime>2025-03-15 20:24:00 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
+<item key="FA807F97-58E0-3F80-8142-4FBCB2F93F10" value="true"/>
 <item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -27,43 +29,32 @@
 <domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CdArea" id="F3245A90-B0A4-66D0-56FC-ABFDFFC122B9">
+<Attribute name="CPF" id="7ECC33A4-40C4-4ED8-F781-B5F67A6AF63C">
 <createdBy>guise</createdBy>
-<createdTime>2025-03-15 20:24:20 UTC</createdTime>
-<generatorID>38FC74C3-A0B5-D871-DF6A-FF6917277DAB</generatorID>
+<createdTime>2025-03-15 22:07:40 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
+<item key="FA807F97-58E0-3F80-8142-4FBCB2F93F10" value="true"/>
 <item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
 </engineerTo>
-<referedAttribute>581DD08F-FD4A-6302-563F-8B8BBFFBAD3A</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Tipo" id="3797E8A6-91CA-3BF3-46A2-BB55DB70B9AC">
-<createdBy>guise</createdBy>
-<createdTime>2025-03-15 20:24:32 UTC</createdTime>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Quota" id="C67BA0DA-48CC-0734-F7F4-32C61156565B">
+<Attribute name="Nome" id="DE6D7B4C-8FDD-FC2C-3199-206BAD14588B">
 <createdBy>guise</createdBy>
-<createdTime>2025-03-15 20:24:47 UTC</createdTime>
+<createdTime>2025-03-15 22:09:29 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
+<item key="FA807F97-58E0-3F80-8142-4FBCB2F93F10" value="true"/>
 <item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -73,6 +64,7 @@
 <createdTime>2025-03-15 20:24:09 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
+<item key="FA807F97-58E0-3F80-8142-4FBCB2F93F10" value="true"/>
 <item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
 </engineerTo>
 <pk>true</pk>
