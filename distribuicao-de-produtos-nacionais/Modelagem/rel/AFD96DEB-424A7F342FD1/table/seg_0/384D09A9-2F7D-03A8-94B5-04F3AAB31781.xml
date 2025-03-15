@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="384D09A9-2F7D-03A8-94B5-04F3AAB31781" name="Funcionario">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>F9DF09E9-2558-E07A-D703-882E33CA269F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdFuncionario" id="35DEE78D-F658-6E89-C040-DEDC2D6F763D">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>9E461585-FDB8-1AFA-92FE-85B1D8B2E67D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdArea" id="17A05A71-DDA1-0BBA-AE45-5A71F4B78773">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>F3245A90-B0A4-66D0-56FC-ABFDFFC122B9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="ACE008E4-5979-F196-ED29-CCF984F98DC2">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>3797E8A6-91CA-3BF3-46A2-BB55DB70B9AC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quota" id="E4A26821-E448-6100-00C8-515A4B9277DB">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>C67BA0DA-48CC-0734-F7F4-32C61156565B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4B7127B-3E4E-232F-EF42-570856028052" name="Funcionario_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>5E119163-62A2-6170-A230-F46683E3A763</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35DEE78D-F658-6E89-C040-DEDC2D6F763D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

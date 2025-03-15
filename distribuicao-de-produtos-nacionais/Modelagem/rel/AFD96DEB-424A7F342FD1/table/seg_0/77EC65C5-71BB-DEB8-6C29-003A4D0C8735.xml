@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77EC65C5-71BB-DEB8-6C29-003A4D0C8735" name="Região_de_vendas">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>E3D37449-BED8-C714-6CF7-9169B2909EE2</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdRegiao" id="BA17E79C-440B-5ABE-D2EA-4AE27A42A590">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>14E13242-8713-21E6-94AE-8901A88645E9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

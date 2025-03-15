@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9DF09E9-2558-E07A-D703-882E33CA269F" name="Funcionario">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:23:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CdFuncionario" id="9E461585-FDB8-1AFA-92FE-85B1D8B2E67D">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:24:00 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CdArea" id="F3245A90-B0A4-66D0-56FC-ABFDFFC122B9">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:24:20 UTC</createdTime>
+<generatorID>38FC74C3-A0B5-D871-DF6A-FF6917277DAB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<referedAttribute>581DD08F-FD4A-6302-563F-8B8BBFFBAD3A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="3797E8A6-91CA-3BF3-46A2-BB55DB70B9AC">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:24:32 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quota" id="C67BA0DA-48CC-0734-F7F4-32C61156565B">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:24:47 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E119163-62A2-6170-A230-F46683E3A763" name="Funcionario PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:24:09 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E461585-FDB8-1AFA-92FE-85B1D8B2E67D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

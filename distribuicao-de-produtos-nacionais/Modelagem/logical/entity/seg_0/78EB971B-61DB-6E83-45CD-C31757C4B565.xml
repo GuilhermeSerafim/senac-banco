@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78EB971B-61DB-6E83-45CD-C31757C4B565" name="Distrito de vendas">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:16:41 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CdDistrito" id="69E6C60D-CF47-7344-EE28-AE2CEAFF48D6">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:17:11 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CdRegiao" id="8DA7142F-AE1D-A5D9-4B50-D069F4979CB6">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:17:29 UTC</createdTime>
+<generatorID>D4B8D6B8-A6F6-10B7-AA50-C9F1CB923811</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<referedAttribute>14E13242-8713-21E6-94AE-8901A88645E9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A38B5090-28DE-86BC-FD9E-626219D17D2D" name="Distrito de vendas PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:22:33 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="AFD96DEB-752B-2F04-E4B6-424A7F342FD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69E6C60D-CF47-7344-EE28-AE2CEAFF48D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

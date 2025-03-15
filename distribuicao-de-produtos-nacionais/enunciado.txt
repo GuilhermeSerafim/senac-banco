@@ -1,0 +1,18 @@
+Statement Develop two ERDs to represent the following situation. Develop one as a hierarchical structure and one as a recursive structure. 
+
+Curves Dynamics sells products throughout the United States. They are divided into four major sales regions: the Northern,
+Eastern, Southern, and Western regions. Each sales region has a unique region code. Each sales region is then divided into sales
+districts. For example, the Western Region is divided into the Rocky Mountain, Northwest, Pacific Coast, and Pacific districts. Each
+district has a unique district code.
+Each district is made up of sales territories. The Rocky Mountain district is composed of three territories: Wyoming-Montana,
+Colorado, and Utah-New Mexico. The Northwest district is made up of two territories: the Washington and Oregon-Idaho territories.
+The Pacific Coast district is composed of two territories: the California and Nevada territories. The Pacific district includes the
+Hawaii territory and the Alaska territory. Each territory has a unique territory code.
+Each sales territory is broken down into sales areas. For example, Colorado is made up of two sales areas: the Front Range and
+the Western Slope sales areas. Each sales area has a unique sales-area code.
+Each salesperson is responsible for one or more sales areas, and has a specific sales quota. Each sales manager is responsible
+for one or more sales districts and sales directors who are responsible for one or more sales regions. Each sales manager is
+responsible for the territories within his districts. Employees’ responsibilities do not overlap. A sales area is always the
+responsibility of a single salesperson, and managers and directors’ responsibilities do not overlap. Sometimes salespersons,
+managers, and directors will be on leave or special assignments and will not have sales area responsibilities. All sales personnel
+are identified by their employee IDs.

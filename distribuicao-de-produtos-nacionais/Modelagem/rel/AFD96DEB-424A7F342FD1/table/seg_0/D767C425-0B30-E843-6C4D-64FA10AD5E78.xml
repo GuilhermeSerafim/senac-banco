@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D767C425-0B30-E843-6C4D-64FA10AD5E78" name="AreaVendas">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>D500F3F8-ABE6-A674-1E7C-3C5800752BA1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdArea" id="37A4EA0E-901F-D3C3-D24C-0A625734423A">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>581DD08F-FD4A-6302-563F-8B8BBFFBAD3A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdTerritorio" id="CB69EBFD-9D05-5599-711B-C4156D73401E">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>B2E4CE40-5118-D1A1-FE04-79270A73CA28</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F189C3A1-DF32-F657-3202-BCE3FA183014" name="AreaVendas_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>6B66B36C-2681-9416-7B63-3828520FB857</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A4EA0E-901F-D3C3-D24C-0A625734423A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

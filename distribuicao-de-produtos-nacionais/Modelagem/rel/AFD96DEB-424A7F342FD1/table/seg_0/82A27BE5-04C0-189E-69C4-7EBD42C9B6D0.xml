@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82A27BE5-04C0-189E-69C4-7EBD42C9B6D0" name="Território_de_Vendas">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>9BA8BA42-5DC4-7A63-CBBB-EF362C64E16E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdTerritorio" id="E16135FB-4EAC-A049-17AD-99DF6680937E">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>46E64356-2862-0D2B-370A-CB45C91D2024</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CdDistrito" id="A11C38FA-288F-F0FE-792E-6B9C0B964AC1">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>4881C933-FBDD-483F-B966-6F412DC1B3C7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15912CFA-EF12-4F1C-A591-180E2ED02538" name="Território_de_Vendas_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:25:43 UTC</createdTime>
+<generatorID>9B03EEA3-791B-CB3A-E5E1-47CE5431E713</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E16135FB-4EAC-A049-17AD-99DF6680937E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
