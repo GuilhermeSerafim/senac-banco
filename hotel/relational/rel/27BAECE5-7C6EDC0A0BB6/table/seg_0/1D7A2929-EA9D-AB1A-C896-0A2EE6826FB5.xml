@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D7A2929-EA9D-AB1A-C896-0A2EE6826FB5" name="QUARTOS">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:07:18 UTC</createdTime>
+<generatorID>2072CE98-92ED-3047-60D3-F1CC165F222A</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Quarto" id="2CFED9B6-5569-40E6-5B6B-66F474966754">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:07:18 UTC</createdTime>
+<generatorID>75ADE12A-1F88-4E6C-349C-3141CEAEE588</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_Quarto" id="02F6FB7C-A6BC-66F8-FEBB-281F79318E34">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:07:18 UTC</createdTime>
+<generatorID>877305ED-9682-8357-0014-AF58A92B122C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Suite" id="2567E862-95DD-0194-94C1-3B10A2DF2B4F">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:07:18 UTC</createdTime>
+<generatorID>35FAFBF4-C105-3F6A-5201-DC4D931230C6</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8273C474-BB25-CEA5-A17E-7676348A4C51" referredColumn="13B30281-C57F-6F32-531E-C14DB92A09E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A434DB8E-64C4-21E0-6F1B-704C9647A717" name="QUARTOS_SUITES_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-15 00:07:18 UTC</createdTime>
+<generatorID>5B097F8A-26EA-B967-5676-260A3D6060BF</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2567E862-95DD-0194-94C1-3B10A2DF2B4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
