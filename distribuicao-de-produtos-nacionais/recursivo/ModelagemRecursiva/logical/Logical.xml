@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7148BC39-FF06-8568-518D-270629585928" mainViewID="F1297B66-C8C7-7C63-89FD-2995DFC0C800">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:32:30 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

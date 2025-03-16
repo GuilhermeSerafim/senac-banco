@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A631911B-E2CE-3BBB-DF0C-93E6F755CAE0" name="Vendedor">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CdVendedor" id="FC8E7123-1E05-BE61-7632-4E9347AB78CD">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<importedID>3C237120-060F-B6BE-58C8-544D15EF1915</importedID>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quota" id="D4F37B27-81F0-D517-76CA-93213EEC4728">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<importedID>5B0CACB9-EFBF-302A-2A96-9E906561724B</importedID>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CdFuncionario" id="159490A5-2750-47B2-F389-546B59FF7593">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<generatorID>D30BB5D6-890B-8C5B-2E01-E2AE43045284</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<importedID>28DE7D4A-BA85-6393-A952-B7DF12E32CD6</importedID>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E89F51D-2C2E-DF72-A508-CCA569AC7056</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8894AB9C-5FDE-AE1E-48A4-BA475DA62DDA" name="Vendedor PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

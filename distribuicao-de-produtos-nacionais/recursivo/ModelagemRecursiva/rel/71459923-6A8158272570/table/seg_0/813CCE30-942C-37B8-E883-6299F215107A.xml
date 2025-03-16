@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="813CCE30-942C-37B8-E883-6299F215107A" name="Vendedor">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>A631911B-E2CE-3BBB-DF0C-93E6F755CAE0</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdVendedor" id="946C93D2-6EE2-3DE2-467B-7E7802C3C5A2">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>FC8E7123-1E05-BE61-7632-4E9347AB78CD</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quota" id="882601D3-6CA5-AD76-364E-174415748B26">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>D4F37B27-81F0-D517-76CA-93213EEC4728</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B9FB8D54-A8BC-E776-5F0D-7703D5662F65</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionario_CdFuncionario" id="89EE4124-9A2E-1079-8EB2-A88FDDECA0D4">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>159490A5-2750-47B2-F389-546B59FF7593</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="382BB64C-15C0-2C71-8587-9D126C7C1BF4" referredColumn="4B09CBD1-AF37-1811-2870-14DB76E35CA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FED8B54-4BC8-D4AD-4756-21D3D1754848" name="Vendedor_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>8894AB9C-5FDE-AE1E-48A4-BA475DA62DDA</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0B2E1412-EEE7-C844-641D-E3B8FF9AC367" name="Vendedor_Funcionario_FK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>D30BB5D6-890B-8C5B-2E01-E2AE43045284</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89EE4124-9A2E-1079-8EB2-A88FDDECA0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

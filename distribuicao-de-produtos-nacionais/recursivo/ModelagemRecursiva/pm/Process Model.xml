@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="B6934BBB-63CE-7628-4B2A-10FD947EC3EB">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:32:30 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

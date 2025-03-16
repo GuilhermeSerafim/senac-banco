@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADCC2121-01D3-DBCF-FADD-1E0DC74F6415" name="Funcionario">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>FFD9D19B-D9EA-306A-B4A4-DEDF1FA6A3DF</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdFuncionario" id="4B09CBD1-AF37-1811-2870-14DB76E35CA3">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>5E89F51D-2C2E-DF72-A508-CCA569AC7056</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="13E8EA6F-7B25-C34A-1F4A-21F01E89A646">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>8980ED0A-D751-0736-BBAE-E4DB6A47712C</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="AB3ADE4E-00FC-721B-9AA7-70DFED6065A5">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>77184D43-6E1C-1D77-884D-35E7F06FC7CE</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B2C96BD-BD66-ABB1-B535-8B893B03658E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionario_ID" id="78F97E58-F69A-607A-489D-302FF9389564">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30F6887E-BAA5-8F13-4E52-2997BE8CF582" name="Funcionario_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="78F97E58-F69A-607A-489D-302FF9389564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB27CFC-0748-EDC6-9749-9531CD74007E" name="Funcionario_CdFuncionario_UN">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>65D654F1-0B31-FBA0-1CC4-A9AB0CE6B02E</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B09CBD1-AF37-1811-2870-14DB76E35CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

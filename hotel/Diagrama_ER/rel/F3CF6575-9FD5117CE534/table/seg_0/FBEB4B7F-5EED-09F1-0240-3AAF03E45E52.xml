@@ -24,9 +24,9 @@
 <createdTime>2025-03-15 00:23:20 UTC</createdTime>
 <generatorID>E5749507-DF83-F733-F0CF-5C48612EB8F6</generatorID>
 <ownerDesignName>Diagrama_ER</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,9 +39,9 @@
 <createdTime>2025-03-15 00:23:20 UTC</createdTime>
 <generatorID>8172A53A-0F1E-8276-90D4-AFA45E56EAA8</generatorID>
 <ownerDesignName>Diagrama_ER</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B6F86B8C-0E6A-0047-C6A3-40E92D2C58A9">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:32:30 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

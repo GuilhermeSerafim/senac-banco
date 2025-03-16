@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contém" directorySegmentName="seg_0" id="5EE65007-39B3-A422-FCF7-F544BE4F8CF5">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 14:35:46 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<targetPk>E089A283-4A81-ED19-2BE8-FF13A73A571B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Contém</nameOnSource>
+<nameOnTarget>Faz parte de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>191AFF4E-E393-8E65-CFF1-6DA8BBD69E35</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>191AFF4E-E393-8E65-CFF1-6DA8BBD69E35</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModelagemRecursiva" id="92B0084C-9E49-91C8-FD07-AFAC9A2F901C" version="3.5">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-15 20:32:30 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>92B0084C-9E49-91C8-FD07-AFAC9A2F901C</designId>
+</OSDM_Design>

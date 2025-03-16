@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D1889BE-B997-C14D-C10B-10414BA739FE" name="Gerente">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>BB55D9D1-3E16-1050-382C-4881A70AA54D</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CdGerente" id="F91DBC35-D118-0A7C-6696-1190277CB198">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>F2897555-1677-3A81-155E-1860DBEA4813</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionario_Funcionario_ID" id="3E9A659C-1ECD-5A9F-A6FA-B846E0D5B24A">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC39339E-4BBB-0F57-A4BB-3E354AC8B42C" referredColumn="78F97E58-F69A-607A-489D-302FF9389564"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5C359C0-09EB-79FE-4A8F-E4C8B077A2B7" name="Gerente_PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>11D464B0-2967-69B2-FED1-6A0CF33A9B71</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="06F91C00-D98D-F6FA-9477-1F54A33E8823" name="Gerente_Funcionario_FK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:39:10 UTC</createdTime>
+<generatorID>C4157419-9C4E-FA84-A69E-84B9AEFAE074</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9A659C-1ECD-5A9F-A6FA-B846E0D5B24A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

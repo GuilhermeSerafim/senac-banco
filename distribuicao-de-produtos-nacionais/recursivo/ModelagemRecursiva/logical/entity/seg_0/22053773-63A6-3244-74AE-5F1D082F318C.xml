@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22053773-63A6-3244-74AE-5F1D082F318C" name="Diretor">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CdDiretor" id="864385FB-CDC7-7820-9A4E-4453DD807709">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<importedID>927BE12F-24B2-0988-8766-72FF7E120676</importedID>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CdFuncionario" id="61AFDA1C-8F02-B4BA-A9AC-7856EA19F73E">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<generatorID>CF764D2B-CDAB-BF36-8D03-4B803BF8547A</generatorID>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<importedID>843D6961-9059-1541-D764-2CACA6A76884</importedID>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E89F51D-2C2E-DF72-A508-CCA569AC7056</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D50BD6BC-5D2A-9F64-7FD9-8879B9916EEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6768004-D27D-2C38-AB36-12BC8E37D1D6" name="Diretor PK">
+<createdBy>guise</createdBy>
+<createdTime>2025-03-16 18:35:28 UTC</createdTime>
+<ownerDesignName>ModelagemRecursiva</ownerDesignName>
+<engineerTo>
+<item key="71459923-79A7-8955-A2F6-6A8158272570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

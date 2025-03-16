@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="F1297B66-C8C7-7C63-89FD-2995DFC0C800">
+<createdBy>guise</createdBy>
+<modifiedBy>guise</modifiedBy>
+<createdTime>2025-03-15 20:32:37 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="191AFF4E-E393-8E65-CFF1-6DA8BBD69E35" otype="Entity" vid="D565D6AE-A858-3836-4338-5653AD97B61C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="95" y="287" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="22053773-63A6-3244-74AE-5F1D082F318C" otype="Entity" vid="97F66F45-F1CD-9DD3-B7A8-F7ECB93B700E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="372" y="222" width="101" height="42"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="30A7CEA8-2E7D-C9EB-A116-91062DD10B6F" otype="Note" vid="59E2F8E2-2710-A2C0-B8D9-9ADA32E669E2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="99" y="174" width="174" height="89"/>
+<comment>A unidade de nível mais alto, como uma Região, não terá pai, então o relacionamento é opcional. A mesma coisa da unidade de níve mais baixo.
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A631911B-E2CE-3BBB-DF0C-93E6F755CAE0" otype="Entity" vid="781A4292-C6C4-1826-16F1-D9E63AD48C11">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="371" y="461" width="116" height="56"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BB55D9D1-3E16-1050-382C-4881A70AA54D" otype="Entity" vid="FBC938E2-353E-C653-1276-501B005C6A58">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="378" y="337" width="108" height="51"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="D075DF88-97C1-4E1A-B221-83750D4C1B59" otype="Note" vid="8590A4F3-90A3-1AAF-9918-C59F304F0C43">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="584" y="92" width="452" height="159"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3355648</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment>O modelo hierárquico é mais ideal para o Exercício 6 porque:
+
+Estrutura Fixa: Reflete diretamente os quatro níveis definidos (Região → Distrito → Território → Área), alinhando-se ao enunciado sem a necessidade de um atributo discriminador.
+Restrições de Integridade: Facilita impor regras como &quot;cada região deve ter pelo menos um distrito&quot; com cardinalidades (1:N), sem constraints adicionais.
+Clareza: Torna a conexão entre Área Vendas e Funcionário simples e intuitiva, já que cada nível é uma entidade distinta.
+O modelo recursivo seria mais complexo para implementar e menos intuitivo no back-end.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F2C6FB43-8334-6BE3-BCDF-02A984064A87" otype="Note" vid="79E19ED6-02DF-9F24-CBCD-6E5E29E566C6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="514" y="495" width="193" height="83"/>
+<comment>Coloquei essa opcionalidade, pois um funcionário pode ser 0, N vendedor, e assim adiante, pois um funcionário pode ser apenas outra da entidade</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FFD9D19B-D9EA-306A-B4A4-DEDF1FA6A3DF" otype="Entity" vid="903CF6CD-15CE-E7E0-62D0-B7BA8CEC335F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="755" y="330" width="129" height="82"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="26F0A23E-8EDE-28A2-9062-29EAF1120D27" otype="Relation" vid_source="FBC938E2-353E-C653-1276-501B005C6A58" vid_target="D565D6AE-A858-3836-4338-5653AD97B61C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="378" y="347"/>
+<point x="265" y="347"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3E4BA28A-A730-087A-9AB7-5C3BF70A01FF" otype="Relation" vid_source="97F66F45-F1CD-9DD3-B7A8-F7ECB93B700E" vid_target="D565D6AE-A858-3836-4338-5653AD97B61C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="372" y="263"/>
+<point x="265" y="307"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5EE65007-39B3-A422-FCF7-F544BE4F8CF5" otype="Relation" vid_source="D565D6AE-A858-3836-4338-5653AD97B61C" vid_target="D565D6AE-A858-3836-4338-5653AD97B61C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="232" y="397"/>
+<point x="232" y="411"/>
+<point x="232" y="482"/>
+<point x="137" y="482"/>
+<point x="137" y="397"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8B815336-84F6-A43F-A1BC-07AE3A5B0E41" otype="Relation" vid_source="781A4292-C6C4-1826-16F1-D9E63AD48C11" vid_target="D565D6AE-A858-3836-4338-5653AD97B61C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="381" y="461"/>
+<point x="265" y="392"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C4157419-9C4E-FA84-A69E-84B9AEFAE074" otype="Relation" vid_source="903CF6CD-15CE-E7E0-62D0-B7BA8CEC335F" vid_target="FBC938E2-353E-C653-1276-501B005C6A58">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="755" y="362"/>
+<point x="486" y="362"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CF764D2B-CDAB-BF36-8D03-4B803BF8547A" otype="Relation" vid_source="903CF6CD-15CE-E7E0-62D0-B7BA8CEC335F" vid_target="97F66F45-F1CD-9DD3-B7A8-F7ECB93B700E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="755" y="350"/>
+<point x="473" y="259"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D30BB5D6-890B-8C5B-2E01-E2AE43045284" otype="Relation" vid_source="903CF6CD-15CE-E7E0-62D0-B7BA8CEC335F" vid_target="781A4292-C6C4-1826-16F1-D9E63AD48C11">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="755" y="390"/>
+<point x="487" y="471"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
