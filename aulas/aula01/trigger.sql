@@ -49,3 +49,32 @@ create trigger retorno_estoque after delete on venda for EACH row
 begin
     update produto set `qtdProduto` = `qtdProduto` + old.qtdVendas where `cdProduto` = old.fkCdProduto;
 end;
+
+
+-- CRIANDO AUDITORIA
+create table copia_produto as select * from produto;
+
+select * from copia_produto;
+
+TRUNCATE table copia_produto;
+
+alter table copia_produto add COLUMN data_alteracao DATETIME;
+
+alter table copia_produto add COLUMN usuario varchar(20);
+
+CREATE TRIGGER auditoria_produto
+AFTER UPDATE ON produto
+FOR EACH ROW
+BEGIN
+    INSERT INTO copia_produto (cdProduto, descricao, vrUnidade, data_alteracao, usuario)
+    VALUES (OLD.cdProduto, OLD.descricao, OLD.vrUnidade, NOW(), USER());
+END;
+
+
+-- Consulta para verificar os dados
+SELECT * FROM produto;
+UPDATE produto
+SET qtdProduto = 100
+WHERE cdProduto = 2;
+
+select * from copia_produto;
