@@ -43,3 +43,9 @@ insert into
         `qtdVendas`
     )
 VALUES ("João", 1, 5);
+
+
+create trigger retorno_estoque after delete on venda for EACH row
+begin
+    update produto set `qtdProduto` = `qtdProduto` + old.qtdVendas where `cdProduto` = old.fkCdProduto;
+end;
