@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2127AB5F-1064-CBC1-0DBE-E48F26513FED" name="Rental Office">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:52:35 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OfficeNumber " id="FDC92C75-E95B-442F-4620-E6B62E306A22">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:52:46 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OfficeName " id="7036B8EE-7EFD-2891-BF2C-165F702048A7">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:52:52 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="7672B213-0EB0-E040-F3C0-F2085A0DD687">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:53:03 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleID" id="697CB53F-DE3E-F467-AD7D-A524428D50DD">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 23:16:20 UTC</createdTime>
+<generatorID>6103EECB-68A7-5E28-9F00-FA70A2F36DFB</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<referedAttribute>1C44E5FD-9FC8-CA31-E728-1BAB8E88E050</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RentalAgreementNumber" id="A90FCF3A-0A6D-CEDF-53F4-AF88F6A50AEC">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 23:18:54 UTC</createdTime>
+<generatorID>EFBEE828-C727-97E3-6C50-2AF2731A4FF8</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8D4ADA9-8D1C-F281-D523-F948618BB0F2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D64A742-99ED-C4D1-6F8B-03BC841F37B9" name="Rental Office PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:53:10 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDC92C75-E95B-442F-4620-E6B62E306A22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

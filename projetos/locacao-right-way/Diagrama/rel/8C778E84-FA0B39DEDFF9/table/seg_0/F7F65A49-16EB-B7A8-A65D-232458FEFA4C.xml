@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7F65A49-16EB-B7A8-A65D-232458FEFA4C" name="Rental_Agreement">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>BBCAD08E-B29E-DB49-8CC1-4FDA4AC9BF34</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RentalAgreementNumber" id="B942F686-642A-E48E-5CB4-0FDA3973DAEC">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>E8D4ADA9-8D1C-F281-D523-F948618BB0F2</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RentalDate" id="A1F2D8B2-0CDC-9092-F38E-3F10BDA8BC32">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>17D8F4C2-B8CF-9BAE-4020-3CDBBB90EF78</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5D417996-33C2-68D1-6C54-18375C316726</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnticipatedDuration" id="D29DA701-9483-F7F5-6801-6A38D1A5E30E">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>2C9F4A78-9419-EC77-1C5F-61EB65BF34BC</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepositPaid" id="5F78E6CD-94C5-0823-3AC0-A52D2D687365">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>757D5A9D-9E95-ED40-44C4-C4B22567777E</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuotedDailyRate" id="0EA08D15-0FC7-3898-2441-945CCF55E97E">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>42FB1408-E24A-7A6E-16D1-C8CEB2C434DE</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuotedRatePerMile" id="D3153D30-9F2D-9C21-AC04-E1D805750489">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>FE3D7F80-E8B8-D6DA-5B77-8A4623BABE64</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDD84255-5109-216C-969E-446C290AB102" name="Rental_Agreement_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>44FDCA8B-352F-FA63-B184-5A2BC4446D8D</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B942F686-642A-E48E-5CB4-0FDA3973DAEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

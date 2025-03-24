@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90059518-CC95-E536-0C2A-A0B42D911AC8" name="IndividualCustomer">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>A3DC8DAD-73A3-AC4F-02F3-D623298A0472</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerID" id="39E48A2C-1264-DB26-E59B-5FAE6914A2FF">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>064F83CB-3AE9-DC0E-5767-6BEA2A4A15DD</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="E88819B0-E7E1-D938-B712-06F82A182420">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>963FA3F4-527C-2639-EE62-B21AB6DAEE96</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HomePhone" id="7C0770B1-FC42-E4AF-9F04-55592D2D9B0F">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>AE342358-73D8-7FFF-7141-76DCB62E7657</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="AAA9FEF9-CB99-24C6-1D89-6390CAB5B085">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>17EF059A-F7EE-C0F8-A218-DFCB1F270404</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DriverLicenseState" id="A22BEF4D-D3E9-2B0C-20DA-1A9749BB442F">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>16E7BD57-3719-7D76-28F8-E8936717C3AF</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DriverLicenseNumber" id="FBB9195E-3152-10D3-DB3C-AE83003EBB9C">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>148CFD5C-51F0-D618-1976-FAB87AD8C59C</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DriverLicenseExpirationDate" id="3F97968E-2851-0183-30ED-2450EEA3F9EB">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>CCB9CEBA-DE41-8311-C08A-ADEF07A68822</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5D417996-33C2-68D1-6C54-18375C316726</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PoorRiskFlag" id="A7373DC7-2ACA-36F4-7A3B-C9E50EDED344">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>501148BA-74AC-2D70-8894-9B23B6DFA345</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RentalAgreementNumber" id="66557052-2DD0-A4C1-5AAC-570DB5EF6D92">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>3540FFB8-57F1-B28D-F387-F9BB38D741EB</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB4784F6-003A-6C0B-A14F-CE534CC563D5" referredColumn="B942F686-642A-E48E-5CB4-0FDA3973DAEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="957C9AF6-9163-0663-53FA-D1524A28C2CC" name="IndividualCustomer_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>E6D30711-EB1B-9A6C-A4CA-516E9A47542B</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E48A2C-1264-DB26-E59B-5FAE6914A2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E73BD3-6C75-7A95-0123-1D69CB71AEEF" name="IndividualCustomer_Rental_Agreement_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>BCE30208-FBAA-5880-B6D3-4E308AA02BD3</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66557052-2DD0-A4C1-5AAC-570DB5EF6D92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

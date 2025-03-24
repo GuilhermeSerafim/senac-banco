@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C118B348-6571-A887-8EF9-15C9AA7AEFCB" name="Company">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>147742C0-9021-971B-92E0-02C6F5C65D3D</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CompanyNumber" id="0B5BB040-62AE-DBEE-8483-DCFC20C2F94A">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>A246DA85-FE74-217F-7BE0-BF250F7B224A</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="217CC614-31AF-9085-2F9D-14CC3CE2A6B0">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>CA8C8946-132F-D399-CC38-DC6B85A00889</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="D49726C7-56CF-6BA1-7F97-B6916F0EA913">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>89928F91-64E5-9A6A-79EC-99CFA46E4963</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RentalAgreementNumber" id="A74452E3-A033-7F0D-4D31-C6BB6CDA6E20">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>922A80E6-B6B0-6528-E85D-8820DC425CC2</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03E66585-10D7-04F7-EC89-D7EC38622652" referredColumn="B942F686-642A-E48E-5CB4-0FDA3973DAEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A3C0FFE-1792-5252-94CB-B87407CDAA38" name="Company_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>AB59D349-106B-2C39-4C39-5F8BBEB03946</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5BB040-62AE-DBEE-8483-DCFC20C2F94A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A707D201-F9A5-F365-7B9B-26DFF6B74EE4" name="Company_Rental_Agreement_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>9D192C5A-F4D7-3C48-B818-63DF6ED1D057</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74452E3-A033-7F0D-4D31-C6BB6CDA6E20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

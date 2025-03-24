@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="37BFE37B-5495-75C0-D319-A3D8A9B71E91" name="Arc_1">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 23:47:07 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<entity>BBCAD08E-B29E-DB49-8CC1-4FDA4AC9BF34</entity>
+<relations>
+<relationID>9D192C5A-F4D7-3C48-B818-63DF6ED1D057</relationID>
+<relationID>BCE30208-FBAA-5880-B6D3-4E308AA02BD3</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BDE91FB-C523-ECC9-7427-D27ED9EA197C" name="Truck">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:59:28 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1DEA4E6B-C314-0504-4748-0F498F6ACBB2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CurrentOdometerReading" id="BCE42959-85E6-434E-221F-CC1B304B1C3D">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:01:09 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GasTankCapacity" id="F3CE8487-A3BD-6AD4-F03A-C3E41A4FC67F">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:01:25 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WorkingRadio" id="0A084CA4-D3AB-12C1-8D6F-74CC74E43913">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:01:51 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MileageAtRentalStart" id="95312474-F78A-3DD7-82CF-7F90540CAB3C">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:26:22 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MileageAtReturn" id="DFED2741-1196-061F-C5A5-0B7F9EF6F6ED">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:26:31 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C01CC79-1E29-9CE3-9D63-89760C695440" name="Truck PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 21:01:24 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCE42959-85E6-434E-221F-CC1B304B1C3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

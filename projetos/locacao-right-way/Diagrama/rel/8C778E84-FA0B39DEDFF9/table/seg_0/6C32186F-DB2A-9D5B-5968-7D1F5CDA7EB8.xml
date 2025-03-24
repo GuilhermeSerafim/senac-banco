@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C32186F-DB2A-9D5B-5968-7D1F5CDA7EB8" name="Truck">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>2BDE91FB-C523-ECC9-7427-D27ED9EA197C</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VehicleID" id="067B0720-0209-A224-1D3A-CFAAA864DF68">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>1C44E5FD-9FC8-CA31-E728-1BAB8E88E050</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65F115C0-4D6E-764B-ACC8-3A672D5EA1C8" referredColumn="4F7C55D3-3885-5793-2E88-4720A88569D8"/>
+</associations>
+</Column>
+<Column name="CurrentOdometerReading" id="C9FA9BE5-42F0-4532-1874-A18488AD200E">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>BCE42959-85E6-434E-221F-CC1B304B1C3D</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GasTankCapacity" id="A707CED5-A62F-EE3E-4E06-57B83232C0CE">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>F3CE8487-A3BD-6AD4-F03A-C3E41A4FC67F</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WorkingRadio" id="654689B4-8A18-C473-6EDD-2E0B482E9DDE">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>0A084CA4-D3AB-12C1-8D6F-74CC74E43913</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MileageAtRentalStart" id="1BCD244B-621E-2B3C-3025-34A436D4EC42">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>95312474-F78A-3DD7-82CF-7F90540CAB3C</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MileageAtReturn" id="1E33FD98-708F-01C3-141E-75BFF79FC883">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>DFED2741-1196-061F-C5A5-0B7F9EF6F6ED</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EE5DF8D-CB8D-177A-16E7-EE6B1616E8B9" name="Truck_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>8BCB1782-AC63-B8DA-5A0E-E1DF12DAC619</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="067B0720-0209-A224-1D3A-CFAAA864DF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="078BCEBF-C993-1C52-89B8-4F0A2C3B1325" name="Truck_PKv1">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>3C01CC79-1E29-9CE3-9D63-89760C695440</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9FA9BE5-42F0-4532-1874-A18488AD200E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92897B3E-FD44-FD4C-C0A4-061F80D82196" name="Truck_Vehicle_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>B0CF9158-9AE9-1DA1-191A-B6EAFCB4114B</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="067B0720-0209-A224-1D3A-CFAAA864DF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

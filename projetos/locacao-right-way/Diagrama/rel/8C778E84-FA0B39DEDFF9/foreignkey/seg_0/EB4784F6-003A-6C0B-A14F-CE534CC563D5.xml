@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB4784F6-003A-6C0B-A14F-CE534CC563D5" containerWithKeyObject="90059518-CC95-E536-0C2A-A0B42D911AC8" localFKIndex="79E73BD3-6C75-7A95-0123-1D69CB71AEEF" name="IndividualCustomer_Rental_Agreement_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>BCE30208-FBAA-5880-B6D3-4E308AA02BD3</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<referredTableLongName>Rental_Agreement</referredTableLongName>
+<arc>61E4BD94-E5F9-F876-3685-009A5D084A71</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7F65A49-16EB-B7A8-A65D-232458FEFA4C</referredTableID>
+<keyObject>DDD84255-5109-216C-969E-446C290AB102</keyObject>
+<referredKeyID>DDD84255-5109-216C-969E-446C290AB102</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>RentalAgreementNumber</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6367EBCC-08B3-4C34-53A6-6AC0C7CA7E85" name="Rental_Office">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>2127AB5F-1064-CBC1-0DBE-E48F26513FED</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OfficeNumber" id="EB4A3DFB-20F5-B34C-EB50-1D82C3411385">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>FDC92C75-E95B-442F-4620-E6B62E306A22</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OfficeName" id="DA3790D4-0B7F-D485-B5F2-41F46AF70D2F">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>7036B8EE-7EFD-2891-BF2C-165F702048A7</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="07C5BAC1-97CC-BBF7-7109-59D584D506EE">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>7672B213-0EB0-E040-F3C0-F2085A0DD687</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VehicleID" id="1835B27E-8838-6CD3-C92E-CF2813BCF063">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>697CB53F-DE3E-F467-AD7D-A524428D50DD</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85EA7E9D-7165-AB94-01A0-51D0740FBC3F" referredColumn="4F7C55D3-3885-5793-2E88-4720A88569D8"/>
+</associations>
+</Column>
+<Column name="RentalAgreementNumber" id="1B7224D1-5B2B-FF54-EA35-B9619698E986">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>A90FCF3A-0A6D-CEDF-53F4-AF88F6A50AEC</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AA4F83-5794-7432-3C7F-8ACE0F0EABE0" referredColumn="B942F686-642A-E48E-5CB4-0FDA3973DAEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5290A67-A208-59AD-1013-23209353DB35" name="Rental_Office_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>7D64A742-99ED-C4D1-6F8B-03BC841F37B9</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB4A3DFB-20F5-B34C-EB50-1D82C3411385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6117565C-834C-050F-BBFF-9468CAB89980" name="Rental_Office_Vehicle_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>6103EECB-68A7-5E28-9F00-FA70A2F36DFB</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1835B27E-8838-6CD3-C92E-CF2813BCF063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C6A056E-3148-0403-6EC6-08EDB7DB7559" name="Rental_Office_Rental_Agreement_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>EFBEE828-C727-97E3-6C50-2AF2731A4FF8</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B7224D1-5B2B-FF54-EA35-B9619698E986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

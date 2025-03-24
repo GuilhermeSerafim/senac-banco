@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="locacao-right-way" id="A16D9BC9-D480-D155-642E-DB579E30EB31" version="3.5">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:51:59 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A16D9BC9-D480-D155-642E-DB579E30EB31</designId>
+</OSDM_Design>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D62B859-3691-A585-B73B-866528DEA12E" name="Trailer">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>55A69655-6685-63DE-0C7F-43703E58BCFB</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VehicleID" id="10831F68-9EE9-91F5-3648-F396A04BE79C">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>1C44E5FD-9FC8-CA31-E728-1BAB8E88E050</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21324E99-6E7A-78D9-F8A6-142843B02419" referredColumn="4F7C55D3-3885-5793-2E88-4720A88569D8"/>
+</associations>
+</Column>
+<Column name="MaximumWeightCapacity" id="C6DA5844-32A7-344B-16AC-1D61FCF5B364">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>1B6FCC4E-B2D6-D2D9-9252-E22CF060210C</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A30822B-1BC3-7C3E-6C36-135C0263A363" name="Trailer_PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>8BCB1782-AC63-B8DA-5A0E-E1DF12DAC619</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10831F68-9EE9-91F5-3648-F396A04BE79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C6EC322-8F5C-6F4C-E1AD-BE08CE0245C4" name="Trailer_Vehicle_FK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-24 01:20:02 UTC</createdTime>
+<generatorID>6F80AA07-F0A3-42A5-2074-2BEA37FB4DC1</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10831F68-9EE9-91F5-3648-F396A04BE79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

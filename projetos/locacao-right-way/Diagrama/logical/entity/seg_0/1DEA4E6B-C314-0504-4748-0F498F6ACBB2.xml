@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DEA4E6B-C314-0504-4748-0F498F6ACBB2" name="Vehicle">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:54:03 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VehicleID" id="1C44E5FD-9FC8-CA31-E728-1BAB8E88E050">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:54:12 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B9E881CD-9F27-9C45-9F9B-6252A52FD5AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StateOfRegistration" id="F5B9EC5D-604D-8880-1FCA-D4E2C4D037EF">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:54:18 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LicensePlateRegistrationNumber" id="D28206B1-6A70-8F47-C1C0-C05D63B9B5CD">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:55:57 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastMaintenanceDate" id="FB850B6E-9161-2970-8424-33C1EAB398C4">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:56:06 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5D417996-33C2-68D1-6C54-18375C316726</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegistrationExpirationDate" id="7AD0D8DA-7E24-3ACB-B300-74161FF6A35D">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:56:30 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5D417996-33C2-68D1-6C54-18375C316726</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RentalAgreementNumber" id="D7C44263-2029-9A6C-833E-DB88BEEF55AA">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 23:21:08 UTC</createdTime>
+<generatorID>8704F300-2E13-CCE8-55A5-BCE251CEB3C8</generatorID>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8D4ADA9-8D1C-F281-D523-F948618BB0F2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64613D1B-A680-3635-0FB2-114D150D061C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BCB1782-AC63-B8DA-5A0E-E1DF12DAC619" name="Vehicle PK">
+<createdBy>guilherme.serafim</createdBy>
+<createdTime>2025-03-23 20:54:16 UTC</createdTime>
+<ownerDesignName>locacao-right-way</ownerDesignName>
+<engineerTo>
+<item key="8C778E84-41AA-9746-1DE2-FA0B39DEDFF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C44E5FD-9FC8-CA31-E728-1BAB8E88E050</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
