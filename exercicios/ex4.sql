@@ -1,0 +1,2 @@
+-- 4) Qual o procedimento para criar um usuário novo de acesso ao banco sakila
+-- — com privilégios de extrair consultas.
